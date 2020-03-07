@@ -33,9 +33,13 @@ body {
 }
 
 /* HEADER */
+.header__icon-bar{
+  display: none;
+}
 
 .main-header {
   background-color: #fff;
+  padding: 20px  0px;
 }
 
 
@@ -236,10 +240,11 @@ body {
   height: 600px;
   background-size: cover;
   background-position: center;
+  margin-bottom: 30px;
 }
 
 .central_banner{
-  padding: 80px 100px;
+  padding: 60px 100px;
   background-color: #fff;
   position: absolute;
   top: 50%;
@@ -255,4 +260,85 @@ body {
   color: #000;
   font-size: 45px;
   padding:20px;
+}
+
+/* footer end page */
+footer{
+  background-color: #000;
+  color: #fff;
+  font-family: Lato, sans-serif;
+}
+
+#end_page img{
+  float: left;
+  height: 20px;
+}
+
+#end_page .container{
+  padding-top: 70px;
+}
+
+.list_footer{
+  list-style: none;
+  text-align: left;
+}
+
+.list_footer h3{
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+
+.list_footer a{
+  color: #373a3c;
+  text-decoration: none;
+}
+
+.list_footer li{
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+#row_footer i{
+font-size: 20px;
+padding: 10px 20px;
+float: left;
+}
+
+#row_footer a{
+  text-decoration: none;
+  float: left;
+  color: #fff;
+}
+
+#row_footer hr{
+  color: #000;
+  margin: 20px 0px;
+}
+
+#row_footer .col-3{
+  padding: 60px 0px;
+}
+
+.store_footer {
+  text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width:768px){
+  .menu-nav{
+    display: none;
+  }
+
+  .logo{
+    padding: 10px 30px;
+  }
+
+  .header__icon-bar{
+    display: block;
+    color: #000;
+    text-align: right;
+    padding: 10px 30px;
+    font-size: 25px;
+  }
 }

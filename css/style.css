@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+/* UTILITIES */
+
+.container {
+  width: 1500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* HEADER */
+
+.main-header {
+  background-color: #fff;
+}
+
+
+.menu-nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu-nav li a {
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.menu-nav li:nth-last-child(2) a{
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#jumbotron {
+  height: 600px;
+  background-image: url('../img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center 80%;
+  color: #fff;
+  text-align: center;
+}
+
+#jumbotron h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+#jumbotron h3 {
+  font-weight: 400;
+  padding: 25px 0 18px;
+  font-size: 16px;
+}
+
+#products {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#products .box {
+  padding: 75px 75px 35px;
+  text-align: center;
+  background: #fafafa;
+}
+
+#products .box .cta {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: blue;
+}
+
+#products .box a::after,
+#smart-mobility a::after,
+.get-app a::after,
+.cities a::after {
+  content: '\003e';
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#products .box h2,
+#products .box h4 {
+  font-weight: 400;
+}
+
+#products .box h2 {
+  margin-bottom: 21px;
+  font-size: 38px;
+}
+#products .box h4 {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+#products .box img {
+  max-width: 100%;
+  width: 230px;
+  margin-top: 21px;
+}
+
+/* HOW WORKS */
+.how-works-bg {
+  height: 550px;
+  background-image: url('../img/helbiz-banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#how-works img {
+  max-width: 100%;
+}
+
+#how-works .contents {
+  padding-bottom: 60px;
+}
+
+#how-works .col-4,
+#how-works .col-4 {
+  padding-top: 80px;
+}
+
+
+#how-works .col-4 h3 {
+  font-weight: 600;
+  font-size: 30px;
+  width: 190px;
+  display: inline-block;
+  text-align: left;
+}
+
+#how-works .img-phone {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 380px;
+}
+
+#smart-mobility{
+  background-image: url('../img/scooter-bg.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+#smart-mobility .position-center{
+  transform: translate(-80%, -50%);
+  width: 450px;
+}
+
+#smart-mobility h2{
+  font-size: 48px;
+  line-height: 57px;
+}
+
+#smart-mobility p{
+  padding: 15px;
+  font-size: 23px;
+  line-height: 31px;
+}
+
+#smart-mobility a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.get-app{
+  background-color: #3E5265;
+  height: 600px;
+  color: #fff;
+  background-image: url(../img/helbiz-app.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+
+.get-app h2,
+.cities h2{
+  padding-top: 20px;
+  font-size: 48px;
+}
+
+.get-app p,
+.cities p{
+  font-size: 23px;
+  padding: 15px 0px;
+}
+
+.get-app a,
+.cities a {
+  color: #fff;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.cities{
+  height: 600px;
+  background-image: url('../img/cities.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+/* social banner */
+
+#social_banner{
+  background-image: url('../img/social-banner.jpg');
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.central_banner{
+  padding: 80px 100px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.central_banner h2{
+  font-size: 48px;
+}
+
+.central_banner i{
+  color: #000;
+  font-size: 45px;
+  padding:20px;
+}
